@@ -1,4 +1,4 @@
 collections:
- post:
-   output: true
-   permalink: /posts/:year/:slug
+  posts:
+    output: true
+    permalink: /posts/:slug
