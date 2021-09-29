@@ -2,3 +2,7 @@ collections:
   posts:
     output: true
     permalink: /posts/:slug
+  archives: 
+    output: true 
+  recipes:
+    output: true

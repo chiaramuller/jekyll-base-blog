@@ -3,7 +3,7 @@ layout: post
 description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi eius consectetur dolorum, non excepturi officiis laudantium laborum! Praesentium numquam ea quidem eos.
 author: Chiara 
 title: My third post
-categories: [travel, australia]
+categories: [food, australia]
 featured_image: https://www.instituteofcode.com/nala.jpg
 ---
 

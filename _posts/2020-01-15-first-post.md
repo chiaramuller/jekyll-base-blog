@@ -4,7 +4,17 @@ description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi eius 
 author: Jessi
 title: My first post
 categories: [food, bali]
+featured: true
 featured_image: https://www.instituteofcode.com/nala.jpg
+categories: 
+ - food 
+ - travel
+seo: 
+  title: 
+  description:
+  social_image:
+  keywords:
+  hide-from-google: false
 ---
 
 

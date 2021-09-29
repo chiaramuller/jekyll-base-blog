@@ -3,7 +3,7 @@ layout: post
 description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi eius consectetur dolorum, non excepturi officiis laudantium laborum! Praesentium numquam ea quidem eos.
 author: Sarah
 title: My second post
-categories: [travel, food]
+categories: [travel, food, life]
 featured_image: https://www.instituteofcode.com/houdini.jpg
 ---
 
