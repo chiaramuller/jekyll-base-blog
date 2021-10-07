@@ -5,6 +5,13 @@ author: Chiara
 title: My third post
 categories: [food, australia]
 featured_image: https://www.instituteofcode.com/nala.jpg
+seo: 
+  title: 
+  description:
+  social_image:
+  twitter_card:
+  keywords:
+  hide-from-google: false
 ---
 
 

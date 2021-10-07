@@ -1,5 +1,26 @@
     <!-- The title for SEO & browser tabs -->
-    <title>{{page.title}}</title>
+    <title>{{page.title | default: site.data.site-settings-seo.title}}</title>
+    <meta name="descrioption" content="{{page.seo.description | default: site.data.site-settings.seo.description}}">
+    <meta name="keywords" content="{{page.seo.keywords | default: site.data.site-settings.seo.keywords}}"> 
+
+    {% if page.seo.hide-from-groogle == true%}
+        <meta name="robots" content="noindex, nofollow">
+    {% else %}
+        <meta name="robots" content="index, follow">
+    {% endif%}
+
+    <!--Social media sharing META tags-->
+    <meta property="og:title" content="{{page.title | default: site.data.site-settings.seo.title}}">
+    <meta property="og:description" content="{{page.seo.description | default: site.data.site-settings.seo.description}}">
+    <meta property="og:image" content="{{page.social_image | default: site.data.site-settings.seo.social_image}}">
+    <meta property="og:url" content="{{site.url}} {{page.url}}">
+    <meta property="twitter:card" content="{{page.seo.twitter_card | default: site.data.site-settings.seo.twitter_card}}">
+    <meta property="og:site_name" content="{{site.data.site-settings.seo.site_name}}">
+    <link rel="icon" type="image/png" href="{{site.data.site-settings.seo.favicon_image}}">
+
+    <!-- Pinterest Meta Tags-->
+    <meta property="article:autor" content="{{page.author | default: site.seo.author}}">
+
 
     <!-- Viewport meta tag -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

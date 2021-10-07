@@ -5,6 +5,13 @@ author: Sarah
 title: My second post
 categories: [travel, food, life]
 featured_image: https://www.instituteofcode.com/houdini.jpg
+seo: 
+  title: 
+  description:
+  social_image:
+  twitter_card:
+  keywords:
+  hide-from-google: false
 ---
 
 
